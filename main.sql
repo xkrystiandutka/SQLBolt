@@ -19,3 +19,21 @@ SELECT title,year FROM movies;
 -- Find all the information about each film
 
 SELECT * FROM movies;
+
+-- Exercise 2 — Tasks
+
+-- Find the movie with a row id of 6 
+
+SELECT * FROM movies where id='6'
+
+-- Find the movies released in the years between 2000 and 2010
+
+SELECT * FROM movies where YEAR BETWEEN 2000 AND 2010
+
+-- Find the movies not released in the years between 2000 and 2010
+
+SELECT * FROM movies where YEAR NOT BETWEEN 2000 AND 2010
+
+-- Find the first 5 Pixar movies and their release year
+
+SELECT * FROM Movies where id BETWEEN 1 AND 5;
